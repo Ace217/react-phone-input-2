@@ -354,7 +354,7 @@ const rawCountries = [
     ['america', 'carribean'],
     'cw',
     '599',
-    '',
+    '.......',
     0
   ],
   [
@@ -397,7 +397,7 @@ const rawCountries = [
     ['america', 'carribean'],
     'do',
     '1',
-    '',
+    '.......',
     2, ['809', '829', '849']
   ],
   [
@@ -433,7 +433,7 @@ const rawCountries = [
     ['africa'],
     'er',
     '291',
-    ''
+    '...-....'
   ],
   [
     'Estonia',
@@ -538,7 +538,7 @@ const rawCountries = [
     ['america', 'carribean'],
     'gp',
     '590',
-    '',
+    '...-..-..-..',
     0
   ],
   [
@@ -934,7 +934,7 @@ const rawCountries = [
     ['asia'],
     'mm',
     '95',
-    ''
+    '.-.........'
   ],
   [
     'Namibia',
@@ -1095,7 +1095,7 @@ const rawCountries = [
     ['america', 'carribean'],
     'pr',
     '1',
-    '',
+    '...-....',
     3, ['787', '939']
   ],
   [
@@ -1405,7 +1405,7 @@ const rawCountries = [
     ['asia'],
     'tv',
     '688',
-    ''
+    '.....'
   ],
   [
     'Uganda',
