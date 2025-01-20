@@ -58,7 +58,7 @@ describe('<PhoneInput /> main props', () => {
         value='+3802343252'
       />)
 
-    expect(phoneInput.querySelector('.form-control').value).toBe('+380 (23) 432 52')
+    expect(phoneInput.querySelector('.form-control').value).toBe('+380 23-432-52')
   })
 })
 
@@ -148,7 +148,7 @@ describe('<PhoneInput /> other props', () => {
     expect(phoneInput.querySelector('.country-list').children.length).toBe(2) // search field & 1 search result
     expect(phoneInput.querySelector('.country-list').children[1].querySelector('.country-name').textContent).toBe('United Kingdom')
   })
-  
+
   test('search "undefined" string returns no non-matching results', () => {
     const { container: phoneInput } = render(
       <PhoneInput
